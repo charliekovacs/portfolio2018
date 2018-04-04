@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html ng-app="charlieApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>charlie kovacs</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.angularjs.org/1.2.25/angular.min.js"></script>
+  <script src="https://code.angularjs.org/1.2.25/angular-route.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body ng-controller="mainController">
+
+
+
+
+<!-- NAVIGATION BAR -->
+<nav class="navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!--a class="navbar-brand" href="/"><img src="img/brand.png" class="img-responsive"></a-->
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavBar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="navtext" href="#">Home</a></li>
+        <li><a class="navtext" href="#music">Music</a></li>
+        <li><a class="navtext" href="#art">Art</a></li>
+        <li><a class="navtext" href="#photos">Photos</a></li>
+        <li><a class="navtext" href="#film">Film</a></li>
+        <li><a class="navtext" href="#contact">Contact</a></li>
+  </div>
+</nav>
+
+
+<div id="main">
+  <div ng-view></div>
+<div>
+<!-- SHOWS -->
+<!--div class="container">
+  <img class="section-title half" src="img/shows.png">
+
+  <div align="center" class="shows">
+
+    <div class="row shows">
+      <div class="col-xs-3 text-uppercase date">Nov 11</div>
+      <div class="col-xs-3 text-uppercase venue">Cheer Up Charlie's</div>
+      <div class="col-xs-3 text-uppercase location">Austin, TX</div>
+      <div class="col-xs-3"><a href="https://www.facebook.com/events/369502230168717/" class="btn btn-default">RSVP</a></div>
+    </div>
+
+    <div class="row shows">
+      <div class="col-xs-3 text-uppercase date">Nov 12</div>
+      <div class="col-xs-3 text-uppercase venue">Spiderhouse Ballroom</div>
+      <div class="col-xs-3 text-uppercase location">Austin, TX</div>
+      <div class="col-xs-3"><a href="https://www.facebook.com/events/363923077355064/" class="btn btn-default">RSVP</a></div>
+    </div>
+
+    <div class="row shows">
+      <div class="col-xs-3 text-uppercase date">Dec 05</div>
+      <div class="col-xs-3 text-uppercase venue">Beerland</div>
+      <div class="col-xs-3 text-uppercase location">Austin, TX</div>
+      <div class="col-xs-3"><a href="https://www.facebook.com/Beerland-Texas-6792809646/" class="btn btn-default">RSVP</a></div>
+    </div>
+
+    </br></br></br>
+
+  </div>
+
+</div-->
+
+
+
+
+
+
+</body>
+</html>
